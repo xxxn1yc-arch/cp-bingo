@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>공수 외모 고찰 메이커</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>공수 외모 고찰 메이커</h1>
-    <p class="guide-text">각 칸을 클릭하여 사진을 업로드하세요.</p>
+    <p>각 칸을 클릭하여 사진을 업로드하세요.</p>
 
     <div class="container">
         <div class="grid-section">
@@ -27,20 +26,8 @@
         <button id="download-btn">하나의 이미지로 저장하기</button>
     </div>
 
-    <div id="cropper-modal" class="modal">
-        <div class="modal-header">
-            <button id="crop-cancel-btn">취소</button>
-            <h3>사진 자르기</h3>
-            <button id="crop-confirm-btn">완료</button>
-        </div>
-        <div class="img-container">
-            <img id="cropper-image" src="" alt="Crop Source">
-        </div>
-    </div>
-
     <canvas id="merge-canvas" style="display: none;"></canvas>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
