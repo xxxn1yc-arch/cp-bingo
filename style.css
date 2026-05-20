@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+
+#template {
+  width: 100%;
+}
+
+#image-area img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  top: 100px;
+  left: 100px;
+  cursor: move;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
